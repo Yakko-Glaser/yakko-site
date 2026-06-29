@@ -1,5 +1,157 @@
+Eu manteria exatamente o mesmo CSS e alteraria apenas os metadados e o JSON-LD. Ficaria assim:
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kamau e Selhara | Fantasia de Espada e Magia Pós-Apocalíptica | Yakko S. Glaser</title>
+
+  <meta name="description" content="Kamau e Selhara é uma série brasileira de fantasia de espada e magia pós-apocalíptica criada por Yakko S. Glaser. Acompanhe um caçador de dragões e uma feiticeira em aventuras independentes ambientadas em um mundo de magia, dragões, monstros e ruínas de uma civilização esquecida.">
+
+  <meta name="author" content="Yakko S. Glaser">
+  <meta name="robots" content="index, follow">
+
+  <style>
+    :root {
+      --bg: #111111;
+      --panel: #181818;
+      --text: #eeeeee;
+      --muted: #b8b8b8;
+      --accent: #d6b36a;
+      --line: #303030;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(880px, 92vw);
+      margin: 0 auto;
+      padding: 64px 0;
+    }
+
+    header {
+      margin-bottom: 48px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 32px;
+    }
+
+    nav {
+      margin-bottom: 32px;
+      font-size: 0.95rem;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 10vw, 6rem);
+      line-height: 0.95;
+      margin: 0 0 16px;
+      letter-spacing: -0.05em;
+    }
+
+    .tagline {
+      font-size: clamp(1.15rem, 3vw, 1.55rem);
+      color: var(--muted);
+      max-width: 720px;
+      margin: 0;
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      padding: 28px;
+      margin: 24px 0;
+    }
+
+    h2 {
+      color: var(--accent);
+      font-size: 1.55rem;
+      margin-top: 0;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    ul,
+    ol {
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 48px;
+      padding-top: 24px;
+      font-size: 0.95rem;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    iframe {
+      max-width: 100%;
+      background: white;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BookSeries",
+    "name": "Kamau e Selhara",
+    "author": {
+      "@type": "Person",
+      "name": "Yakko S. Glaser"
+    },
+    "genre": [
+      "fantasia de espada e magia",
+      "Sword and Sorcery",
+      "fantasia pós-apocalíptica",
+      "fantasia brasileira",
+      "ficção especulativa"
+    ],
+    "description": "Kamau e Selhara é uma série brasileira de fantasia de espada e magia pós-apocalíptica sobre um caçador de dragões e uma feiticeira explorando um mundo de magia, monstros e ruínas de uma civilização esquecida.",
+    "inLanguage": "pt-BR",
+    "keywords": [
+      "fantasia brasileira",
+      "fantasia de espada e magia",
+      "Sword and Sorcery",
+      "fantasia pós-apocalíptica",
+      "caçador de dragões",
+      "feiticeira",
+      "dragões",
+      "magia",
+      "contos de fantasia",
+      "aventuras independentes",
+      "Yakko S. Glaser",
+      "Kamau e Selhara"
+    ]
+  }
+  </script>
+</head>
 <p><a href="/">← Página inicial</a></p>
-<h1><img class="post__image" src="file:////https://github.com/Yakko-Glaser/yakko-site/blob/main/KamauSelharaBanner.png" alt="" width="1951" height="806"></h1>
+<h1><img class="post__image" src="https://github.com/Yakko-Glaser/yakko-site/blob/main/KamauSelharaBanner.png" alt="" width="1951" height="806"></h1>
 <p><strong>Fantasia de espada e magia pós-apocalíptica.</strong></p>
 <section>
 <h2>O que é?</h2>
