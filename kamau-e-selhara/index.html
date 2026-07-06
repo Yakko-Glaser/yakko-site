@@ -11,25 +11,30 @@
   <meta name="robots" content="index, follow">
 
   <style>
-    :root {
-      --bg: #111111;
-      --panel: #181818;
-      --text: #eeeeee;
-      --muted: #b8b8b8;
-      --accent: #d6b36a;
-      --line: #303030;
-    }
+  :root {
+  --bg: #120F0A;       /* Fundo principal */
+  --panel: #1B1510;    /* Painéis e caixas */
+  --text: #F1E6D0;     /* Texto principal */
+  --muted: #C3B396;    /* Texto secundário */
+  --accent: #D6A84F;   /* Títulos, links e destaques */
+  --line: #4A3520;     /* Bordas e divisórias */
+  }
 
     * {
       box-sizing: border-box;
     }
 
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.65;
+   body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: linear-gradient(
+        to bottom,
+        #24180F 0%,
+        #1A130D 35%,
+        #120F0A 100%
+    );
+    color: var(--text);
+    line-height: 1.65;
     }
 
     main {
