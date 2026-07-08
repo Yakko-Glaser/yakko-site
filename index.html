@@ -56,6 +56,17 @@
       margin: 0;
     }
 
+    .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    }
+    
     section {
       background: var(--panel);
       border: 1px solid var(--line);
@@ -137,9 +148,9 @@
 <body>
   <main>
     <header>
-    <img class="hero-image" src="https://yakko.com.br/Banner-Yakko.png" alt="">
+    <h1 class="sr-only">Yakko S. Glaser</h1>
+    <img class="hero-image" src="https://yakko.com.br/Banner-Yakko.png" alt="Yakko S. Glaser - Apresentação Artística">
     </header>
-
     <section aria-labelledby="sobre">
       <h2 id="sobre">Sobre</h2>
       <p>
