@@ -8,14 +8,21 @@
   <meta name="author" content="Yakko">
   <meta name="robots" content="index, follow">
 
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/velsjon/site.webmanifest">
+  <meta name="theme-color" content="#081221">
+  
   <style>
     :root {
-      --bg: #111111;
-      --panel: #181818;
-      --text: #eeeeee;
-      --muted: #b8b8b8;
-      --accent: #d6b36a;
-      --line: #303030;
+   --bg: #081221;       /* Fundo principal */
+   --panel: #0F1B2D;    /* Painéis */
+   --text: #EEF3FB;     /* Texto principal */
+   --muted: #AABFD9;    /* Texto secundário */
+   --accent: #86BFFF;   /* Títulos, links e destaques */
+   --line: #284A6E;     /* Bordas */
     }
 
     * {
@@ -23,11 +30,16 @@
     }
 
     body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.65;
+     margin: 0;
+     font-family: Georgia, "Times New Roman", serif;
+     background: linear-gradient(
+         to bottom,
+         #163050 0%,
+         #0D1F36 35%,
+         #081221 100%
+     );
+    color: var(--text);
+   line-height: 1.65;
     }
 
     main {
@@ -64,14 +76,17 @@
     section {
       background: var(--panel);
       border: 1px solid var(--line);
-      padding: 28px;
-      margin: 24px 0;
+     border-radius: 8px;
+     padding: 28px;
+     margin: 24px 0;
+     box-shadow: 0 3px 10px rgba(0,0,0,.20);
     }
 
     h2 {
-      color: var(--accent);
-      font-size: 1.55rem;
-      margin-top: 0;
+     color: var(--accent);
+     font-size: 1.55rem;
+     margin-top: 0;
+     text-shadow: 0 1px 2px rgba(0,0,0,.35);
     }
 
     p {
