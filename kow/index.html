@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K.O.W. | Origens e Porto Alegre | Yakko S. Glaser</title>
+  <meta name="description" content="K.O.W. é um universo de romantasia sobrenatural de Yakko S. Glaser. Comece por K.O.W. Origens, uma série de contos ambientada no Brasil imperial.">
+  <meta name="author" content="Yakko S. Glaser">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/kow/site.webmanifest">
+  <meta name="theme-color" content="#080C14">
+  <style>
+    :root {
+      --bg: #080C14;
+      --panel: #111824;
+      --panel-alt: #171724;
+      --text: #E7E2DA;
+      --muted: #ABA9AF;
+      --accent: #CFB88A;
+      --wine: #A94954;
+      --line: #35404F;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(to bottom, #1B2639 0%, #101825 35%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    main { width: min(880px, 92vw); margin: 0 auto; padding: 32px 0 64px; }
+
+    nav { display: flex; justify-content: space-between; gap: 16px; font-size: .95rem; margin-bottom: 40px; }
+
+    header { text-align: center; padding: 56px 8% 48px; border-bottom: 1px solid var(--line); }
+
+    .eyebrow, .section-kicker { color: var(--wine); font-size: .8rem; font-weight: bold; letter-spacing: .16em; text-transform: uppercase; margin: 0 0 12px; }
+
+    h1 { font-size: clamp(3.5rem, 11vw, 6.5rem); line-height: .82; letter-spacing: -.06em; font-weight: normal; margin: 0; }
+
+    h1 span { display: block; color: var(--accent); font-size: .38em; letter-spacing: .15em; margin-bottom: .35em; }
+
+    .tagline { color: #D2C9D6; font-size: clamp(1.15rem, 3vw, 1.5rem); margin: 34px auto 0; max-width: 600px; }
+
+    .hero-copy { color: var(--muted); max-width: 610px; margin: 28px auto 0; }
+
+    section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 28px; margin: 24px 0; box-shadow: 0 3px 10px rgba(0,0,0,.2); }
+
+    h2 { color: var(--accent); font-size: 1.7rem; font-weight: normal; line-height: 1.2; margin: 0 0 18px; }
+
+    h2 span { color: var(--wine); font-size: .65em; letter-spacing: .12em; }
+
+    h3 { font-size: 1.2rem; font-weight: normal; margin: 0; color: var(--text); }
+
+    p { margin-top: 0; }
+
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+    a:hover { border-bottom-color: var(--accent); }
+
+    .story-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+
+    .story { display: grid; grid-template-columns: 58px 1fr; gap: 14px; padding: 21px 0; border-bottom: 1px solid var(--line); }
+    .number { color: var(--wine); letter-spacing: .08em; font-size: 1.15rem; }
+    .coming-soon { color: var(--muted); font-style: italic; margin: 5px 0 0; }
+    .archive-link { margin: 24px 0 0; text-align: right; }
+
+    .audience { border-left: 3px solid var(--wine); }
+    .porto-alegre { background: linear-gradient(135deg, #0D141F, var(--panel-alt)); text-align: center; padding: 52px 12%; }
+    .porto-alegre p { color: #C7C2CA; }
+    .promise { color: var(--accent) !important; font-style: italic; margin: 24px 0 0; }
+
+    details { padding: 17px 0; border-top: 1px solid var(--line); }
+    details:first-of-type { border-top: 0; padding-top: 0; }
+    details:last-child { padding-bottom: 0; }
+    summary { cursor: pointer; font-size: 1.08rem; }
+    details p { color: var(--muted); margin: 12px 0 0; }
+
+    .newsletter { background: linear-gradient(135deg, #24192C, #121927); text-align: center; padding: 46px 11%; }
+    .newsletter p { color: #C3BEC5; }
+    .button { display: inline-block; border: 1px solid var(--accent); padding: 11px 20px; margin-top: 10px; }
+    .button:hover { background: var(--accent); color: var(--bg); }
+
+    footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .95rem; margin-top: 48px; padding-top: 24px; text-align: center; }
+
+    @media (max-width: 600px) {
+      main { padding-top: 20px; }
+      nav { font-size: .85rem; }
+      header { padding: 42px 4% 38px; }
+      section { padding: 24px 20px; }
+      .story { grid-template-columns: 45px 1fr; }
+      .archive-link { text-align: left; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BookSeries",
+    "name": "K.O.W.",
+    "author": { "@type": "Person", "name": "Yakko S. Glaser" },
+    "genre": ["romantasia", "fantasia sobrenatural", "fantasia histórica brasileira", "horror"],
+    "description": "K.O.W. é um universo de romantasia sobrenatural de Yakko S. Glaser, iniciado pela série de contos K.O.W. Origens.",
+    "inLanguage": "pt-BR"
+  }
+  </script>
+</head>
+<body>
+  <main>
+    <nav aria-label="Navegação principal">
+      <a href="/">← Página inicial</a>
+      <a href="#origens">Origens</a>
+      <a href="#porto-alegre">Porto Alegre</a>
+    </nav>
+
+    <header>
+      <p class="eyebrow">Yakko S. Glaser apresenta</p>
+      <h1><span>K.O.W.</span>Origens</h1>
+      <p class="tagline">Uma romantasia sobrenatural no Brasil imperial.</p>
+      <p class="hero-copy">Antes de Porto Alegre e antes de o mundo saber que monstros existem, houve quem aprendesse a sobreviver às sombras.</p>
+    </header>
+
+    <section id="origens">
+      <p class="section-kicker">Agora</p>
+      <h2>K.O.W. Origens</h2>
+      <p>K.O.W. Origens reúne quatro contos ambientados cerca de um século antes de <em>K.O.W. Porto Alegre</em>. São histórias independentes que mostram pactos, tradições e escolhas que ajudaram a moldar o mundo encontrado mais tarde.</p>
+      <p>O primeiro conto já está disponível gratuitamente no Substack.</p>
+    </section>
+
+    <section>
+      <p class="section-kicker">Episódios</p>
+      <h2>Ler agora</h2>
+      <ol class="story-list">
+        <li class="story"><span class="number">01</span><div><h3>O Cheiro da Arquivista</h3><a href="https://yakkosglaser.substack.com/p/o-cheiro-da-arquivista">Ler o conto →</a></div></li>
+        <li class="story"><span class="number">02</span><div><h3>O Último Oni</h3><p class="coming-soon">Em breve</p></div></li>
+        <li class="story"><span class="number">03</span><div><h3>Territórios e Linhagens</h3><p class="coming-soon">Em breve</p></div></li>
+        <li class="story"><span class="number">04</span><div><h3>Degola</h3><p class="coming-soon">Em breve</p></div></li>
+      </ol>
+      <p class="archive-link"><a href="https://yakkosglaser.substack.com/s/kow-origens">Acompanhe Origens no Substack →</a></p>
+    </section>
+
+    <section class="audience">
+      <p class="section-kicker">Para leitores de</p>
+      <h2>Romantasia, horror e fantasia histórica</h2>
+      <p>K.O.W. Origens é para quem gosta de romances em que o desejo e o perigo caminham juntos; de fantasia histórica brasileira; de monstros tratados como criaturas reais, estranhas e difíceis de vencer. Há ação, mistério, sensualidade e violência.</p>
+    </section>
+
+    <section id="porto-alegre" class="porto-alegre">
+      <p class="section-kicker">Em breve</p>
+      <h2><span>K.O.W.</span> Porto Alegre</h2>
+      <p>Depois dos quatro contos de Origens, este mesmo espaço receberá a publicação seriada de <em>K.O.W. Porto Alegre</em>, a próxima história do universo.</p>
+      <p class="promise">Por enquanto, Origens é o começo.</p>
+    </section>
+
+    <section>
+      <p class="section-kicker">Perguntas frequentes</p>
+      <h2>Antes de começar</h2>
+      <details open>
+        <summary>Preciso ler K.O.W. Porto Alegre antes?</summary>
+        <p>Não. K.O.W. Origens funciona como porta de entrada para o universo e pode ser lido de forma independente.</p>
+      </details>
+      <details>
+        <summary>Qual é a ordem de leitura?</summary>
+        <p><em>O Cheiro da Arquivista</em>, <em>O Último Oni</em>, <em>Territórios e Linhagens</em> e <em>Degola</em>.</p>
+      </details>
+      <details>
+        <summary>Os contos são gratuitos?</summary>
+        <p>Sim. Os episódios de K.O.W. Origens são publicados gratuitamente no Substack.</p>
+      </details>
+    </section>
+
+    <section class="newsletter">
+      <p class="section-kicker">Não perca os próximos</p>
+      <h2>Receba cada história no seu e-mail</h2>
+      <p>Assine gratuitamente o Substack de Yakko S. Glaser. Sem calendário artificial e sem spam: uma nova história chega quando estiver pronta.</p>
+      <a class="button" href="https://yakkosglaser.substack.com/subscribe">Assinar gratuitamente</a>
+    </section>
+
+    <footer><p>© Yakko S. Glaser. Todos os direitos reservados.</p></footer>
+  </main>
+</body>
+</html>
