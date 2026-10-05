@@ -1,0 +1,22 @@
+# Yakko S. Glaser
+
+> Site oficial de Yakko S. Glaser, autor brasileiro de fantasia sombria, horror e ficção especulativa. As obras incluem Vélsjón, Kamau e Selhara e K.O.W. — Kibungo-Oni-Werwolf.
+
+Yakko S. Glaser publica ficção em português do Brasil. Este site reúne as páginas oficiais de seus projetos literários e direciona para as leituras gratuitas disponíveis no Substack.
+
+## Obras e projetos
+
+- [Vélsjón](https://yakko.com.br/velsjon/): saga de fantasia sombria de Yakko S. Glaser.
+- [Kamau e Selhara](https://yakko.com.br/kamau-e-selhara/): fantasia de espada e magia pós-apocalíptica, com aventuras independentes protagonizadas por um caçador de dragões e uma feiticeira.
+- [K.O.W. — Kibungo-Oni-Werwolf](https://yakko.com.br/kow/): universo de romantasia sobrenatural, horror e fantasia histórica brasileira. A página atualmente apresenta K.O.W. Origens e prepara K.O.W. — Porto Alegre.
+
+## Leitura gratuita
+
+- [Substack de Yakko S. Glaser](https://yakkosglaser.substack.com/): contos, capítulos e atualizações do autor.
+- [Série Kamau e Selhara no Substack](https://yakkosglaser.substack.com/s/kamau-e-selhara-episodios): episódios disponíveis da série.
+- [K.O.W. Origens no Substack](https://yakkosglaser.substack.com/): contos publicados do universo K.O.W.
+
+## Informações do site
+
+- [Página inicial](https://yakko.com.br/): visão geral das obras.
+- [Sitemap](https://yakko.com.br/sitemap.xml): lista de URLs indexáveis do site.
